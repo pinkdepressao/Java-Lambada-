@@ -1,0 +1,8 @@
+public class testedepi{
+  
+  static final double PI = 3.141529;
+  public static void main (String[]args){
+    System.out.println(PI);
+  }
+  
+}
