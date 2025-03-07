@@ -1,0 +1,9 @@
+public class parametro {
+  
+  public static void main(string[]args){
+    byte maiorByte = 127;
+    byte menorByte = -128;
+    System.out.println(maiorByte + menorByte);
+    
+  }
+}
