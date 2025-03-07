@@ -1,0 +1,12 @@
+public class concatedua {
+  
+  public static void main(String[] args){
+    String textoG1 = "Seja você a mudança";
+    String textoG2 = "que quer ver no mundo.";
+    String textoGconcatenado = textoG1 + "  " +textoG2;
+    
+    System.out.println(textoGconcatenado);
+    System.out.println(textoG1 + "   " +textoG2);
+    
+  }
+}
