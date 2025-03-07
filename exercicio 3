@@ -1,0 +1,19 @@
+#exercicio3 
+import java.util.Scanner;
+
+public class projedua3{
+  
+  public static void main (String[]args){
+    Scanner scanner = new Scanner(System.in);
+    int num1 = scanner.nextInt();
+    if(num1 < 50){
+      System.out.println(num1*0.85);
+    }else if(num1 <200){
+      System.out.println(num1*0.75);
+    }else{
+      System.out.println(num1*0.65);
+    }
+    scanner.close();
+    
+  }
+}
