@@ -1,0 +1,20 @@
+/**
+ * Woah? What's this? 🤔 It's a weird looking comment. Another *, eh?
+ * Write a little bit about yourself here. What's your name? Where are you from? What do you do?
+ *  
+ * I'm a comment, and I want to say hi! 👋
+ */
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("========== 🎵 Music Wrapped 🎵 ==========");
+
+        System.out.println("Would that i"); //Hozier
+        System.out.println("sunlight"); //hozier
+        System.out.println("me adora"); //pitty
+        System.out.println("The Giver"); // chappel roan 
+        System.out.println("As coisas que não te ensinam na faculdade"); //Sophia chablau e uma enorme perda 
+
+        System.out.println("======= 🎵 🎵 🎵 🎵 🎵 🎵 🎵 🎵 ========");
+    }
+}
