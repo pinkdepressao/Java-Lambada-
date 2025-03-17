@@ -1,0 +1,15 @@
+public class HelloWorld {
+    public static void main(String[] args) {
+        String name = "Sabrina Carpenter";
+        String gender = "solteira";
+        char initial = 'f'; // Corrigido o tipo char e aspas simples
+        int age = 25;
+        boolean organDonor = false;
+
+        System.out.println(name);
+        System.out.println(gender);
+        System.out.println(initial); // Imprime 'f'
+        System.out.println(age); // Imprime 25
+        System.out.println(organDonor); // Imprime false
+    }
+}
