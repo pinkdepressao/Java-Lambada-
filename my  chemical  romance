@@ -1,0 +1,11 @@
+public class HelloWorld {
+    public static void main(String[] args) {
+        // Write your code here 💖
+        int chemicA = 2;
+        int chemicB = 4;
+
+        int result = ((chemicA + chemicB) / chemicA * chemicB );
+
+        System.out.println(result);
+    }
+}
