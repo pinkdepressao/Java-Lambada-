@@ -1,0 +1,11 @@
+public class HelloWorld {
+    public static void main(String[] args) {
+     double originalPrice = 60.0;
+     double discount = 20.0;
+
+     double finalPrice = originalPrice - (originalPrice *(discount/100));
+
+     System.out.println(finalPrice);
+        
+    }
+}
