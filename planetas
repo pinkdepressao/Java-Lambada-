@@ -1,0 +1,52 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+
+
+		StringBuilder str = new StringBuilder ("Qual o seu problema? ");
+
+
+		System.out.println("Digite um numero de 1 a 8");
+		int numero = scan.nextInt();
+
+		switch (numero) {
+		case 1:
+			str.append("Mercurio");
+			break;
+		case 2:
+			str.append("Venus");
+			break;
+		case 3:
+			str.append("Terra");
+			break;
+		case 4:
+			str.append("Marte");
+			break;
+		case 5:
+			str.append("Jupiter");
+			break;
+		case 6:
+			str.append("Saturno");
+			break;
+        case 7:
+	        str.append("Urano");
+	        break;
+	    case 8:
+	        str.append("Netuno"); 
+	         break;
+	    default:
+	        System.out.println("Numero fora de 1 a 8");
+	        return;
+	        
+		}
+		
+		System.out.println(str.toString());
+		
+		
+		scan.close();
+	}
+}
