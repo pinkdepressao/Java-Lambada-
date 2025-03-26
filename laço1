@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+    public class edoarda{
+        public static void main(String[]args){
+            Scanner entrada = new Scanner(System.in);
+         
+            System.out.println("Digite um caracter (x para sair)");  
+            String caractere = " ";
+            
+            
+            while(true){
+                caractere = entrada.nextLine();
+                if(caractere.equalsIgnoreCase("x")){
+                    break;
+                    
+                }
+            }
+            
+            System.out.println("O laço foi interrompido!");
+            
+            System.out.println("Digite um caractere (y para sair)");
+            for (;;){
+                caractere = entrada.nextLine();
+                if(caractere.equalsIgnoreCase("y")){
+                    break;
+                }
+                System.out.println("O laço foi quebrado novamente!!");
+            }
+            entrada.close();
+            
+        }
+    }
