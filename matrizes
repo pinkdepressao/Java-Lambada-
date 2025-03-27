@@ -1,0 +1,29 @@
+
+import java.util.Scanner;
+public class javinha{
+    public static void main(String[]args){
+        float [][] matriz = new float [2][3];
+        Scanner scanner = new Scanner (System.in);
+        float media = 0;
+        float peso = 0;
+        
+        for(int i = 0; i<3; i++){
+            System.out.println("Digite a " + (i+1) + "°nota");
+            matriz[0][i] = scanner.nextFloat();
+            System.out.println("Digite a " + (i+1) +"°peso");
+            matriz[1][i] = scanner.nextFloat();
+            
+            media += matriz[0][i]*matriz[1][i];
+            peso += matriz[1][i];
+            
+        }
+        
+    if (peso != 0){    
+        media = media/peso;
+        System.out.println("A media é"+ media);
+    }else{    
+        System.out.println("Erro:O peso total é zero!!");
+    }
+    scanner.close();
+}
+}
